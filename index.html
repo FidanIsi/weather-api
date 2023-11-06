@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Weather application</title>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <i class="fa fa-map-marker" aria-hidden="true"></i>
+      <input type="text" placeholder="Enter city name" class="search-input">
+      <button><i class="fa fa-search" aria-hidden="true"></i></button>
+    </div>
+    <div class="weather">
+      <div class="name">
+        <div class="country"></div>
+        <div class="city"></div>
+      </div>
+      <h1 class="time"></h1>
+      <div class="weather-icon"><img src="" class="icon" style="display: none;"></div>
+      <div class="temperature"></div>
+      <div class="details">
+        <div class="col1">
+          <div class="wind">
+            <div class="wind-icon"><img src="./images/wind.png" style="display: none;"><span class="wind-speed"></span></div>
+          </div>
+          <div class="humidity">
+            <div class="humidity-icon"><img src="./images/humidity.png" style="display: none;"><span class="humidity-speed"></span></div>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="feels_like"></div>
+          <div class="uv_index"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./index.js"></script>
+</html>
